@@ -5,6 +5,9 @@ info:
   version: 1.0.0
 servers:
   - url: http://localhost:3006/inventory
+    description: for server local
+  - url: https://inventory-service-test.onrender.com/inventory
+    description: for server htttps
 paths:
   /:
     get:
